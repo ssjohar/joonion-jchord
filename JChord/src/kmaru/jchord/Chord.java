@@ -34,6 +34,7 @@ public class Chord {
 	}
 
 	public int size() {
+		System.out.println(nodeList.size());
 		return nodeList.size();
 	}
 }
